@@ -1,24 +1,24 @@
 function Body() {
   return (
-    <main>
-      <div className="content">
+    <main class="content-box">
+      <div className="body-content">
         <h1>YOUR FEET DESERVES THE BEST</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi harum
-          illum magni qui libero omnis, quam debitis, nulla, laboriosam delectus
-          voluptatibus! Quidem doloremque neque nobis, possimus in incidunt
-          quasi sit.
+        YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.
         </p>
-        <button>Shop Now</button>
-        <button>Category</button>
-        <div>
+        <div className="body-button-content">
+          <button className="shop-now-button">Shop Now</button>
+          <button className="category-button">Category</button>
+        </div>
+        <div className="body-image-socialMedia">
           <p>Also Available on</p>
-          <i>flipkart</i>
-          <i>Amazon</i>
+          <img src="assets/flipkart.png" alt="showImage" />
+          <img src="assets/amazon.png" alt="showImage" />
+          
         </div>
       </div>
-      <div className="image"></div>
-      <img src="" alt="" />
+      <div className="body-shoe-image"></div>
+      <img src="assets/shoe_image.png" alt="showImage" />
     </main>
   );
 }
